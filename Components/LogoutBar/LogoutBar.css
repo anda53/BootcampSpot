@@ -1,0 +1,105 @@
+.LogoutBar_button{
+	display: none;
+}
+
+#logoutBar_logo{
+	padding-top: 2%;
+    background-color: #343333;
+    text-align: center;
+    height: 20vh;
+    padding-bottom: 2%;
+    border-bottom: 12px double #de0303;
+
+}
+#logoutBar_textDiv{
+	float: right;
+	margin-top: 37px;
+    margin-right: 4%;
+}
+#logoImg {
+	text-align: center;
+	max-width: 100%;
+    max-height: 100%;
+    margin-top: 22px;
+}
+
+#logoImg1{
+	margin-top: 25px;
+	max-width: 88%;
+}
+#logoutBar_username, #logoutBar_logout {
+	font-family: 'Roboto Condensed', sans-serif;	
+	color: #fcfbfb;
+	display: inline-block;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+#logoutBar_logout {
+	border-left: 3px solid #343333;
+    padding-right: 12px;
+   
+}
+
+
+#logoutBar{
+	background-color: #de0303;
+    position: static;
+    height: 20vh;
+    padding: 0px;
+    border-bottom: 12px double #343333;
+}
+
+
+@media screen and (max-width: 768px){
+
+	.LogoutBar_button{
+		display: inline;
+
+	}
+	
+	
+	#logoImg {
+		background-color: #3a3939;
+		margin-top: 21%;
+    	margin-left: 10%
+
+	}
+
+	#logoImg1 {
+		text-align: center;
+
+	}
+
+
+	#logoutBar_logo{ 
+		max-height: 70%;
+		width: 100%;
+		border-bottom: none;
+	}
+
+	#logoutBar_content {
+		width: 100%;
+	}
+
+	#logoutBar_logout{
+	    border-left: 3px solid #ea1616;
+	}
+	
+
+	#logoutBar{
+		background-color: #343333;
+		height: 22vh;
+	}
+
+	#logoutBar_textDiv {
+	    max-height: 30%;
+	    padding: 0px;
+	    margin-top: 0px;
+	}
+	#logoutBar_username, #logoutBar_logout {
+		padding: 0px 20px;
+		
+
+	}
+}
+

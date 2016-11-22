@@ -1,0 +1,73 @@
+
+
+	h4{
+		color:grey;
+	}
+	.multRads2{
+		margin-bottom: 3%;
+		color:grey;
+
+	}
+
+	.absRadQ{
+		font-size: 15px; 
+		margin-left:2%;
+		margin-right: 8%;
+		
+	}
+	.multRads2{
+		margin-left: 10%;
+	}
+	.radio-inline.yesNo{
+		color:grey;
+		margin-right:22px;
+		padding-left: 12px;
+		font-size: 15px;		
+	}
+	input[type=radio].absCircle{
+		width: 61%;
+	}
+
+@media screen and (max-width: 768px){
+	.absRadQ{
+		font-size: 18px;
+		margin-left: 2%;
+		margin-right: 3%;
+		color:grey;
+
+	}
+
+	.multRads2{
+		margin-bottom: 3%;
+		color:grey;
+	}
+
+
+}
+
+@media screen and (max-width: 640px){
+
+	.absRadQ{
+		margin-left: 6%;
+		font-size: 13px;
+		margin-right: 2%;
+		color:grey;
+
+	}
+	.multRads2{
+		margin-bottom: 3%;
+		margin-left: 9%;
+	}
+	
+
+	.absenceInput{
+		width:89%;
+	}
+	
+	.radio-inline.yesNo{
+		font-size: 13px;
+		color:grey;
+	}
+
+
+}

@@ -1,0 +1,42 @@
+.homeworkPageCol1 {
+	width: 33.333%;
+}
+.homeworkPageCol2 {
+	width: 33.333%;
+}
+.homeworkPageCol3 {
+	width: 33.333%;
+}
+
+.homeworkPageBackground{
+	background-image: url('/assets/images/homework_watermark.png');
+	height: 80vh;
+	background-size: 100% auto;
+	background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+.homeworkBackground{
+	background-image: url('/assets/images/homework_watermark.png');
+	height: 80vh;
+	background-size: 100% auto;
+	background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+@media screen and (max-width: 768px){
+
+	.homeworkPageCol1 {
+		width: 33.333%;
+	}
+	.homeworkPageCol2 {
+		width: 33.333%;
+	}
+	.homeworkPageCol3 {
+		width: 33.333%;
+	}
+
+
+}

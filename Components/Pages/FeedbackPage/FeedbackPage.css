@@ -1,0 +1,336 @@
+
+#bigFeedbackDiv{
+	overflow-y:auto;
+}
+
+.feedbackBackground{
+	background-image: url('/assets/images/feedback_watermark.png');
+	height: 80vh;
+	background-size: 100% auto;
+	background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+.studentFeedback{
+	border-radius: 100%;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	display: inline-block;
+	color:black;
+	margin-left: 10%;
+}
+
+#absenceForm{
+	border-radius: 100%;
+	margin-left: 130%;
+	margin-top: 70%;
+}
+
+#tutorSession{
+	border-radius: 100%;
+	margin-left: 220%;
+	margin-top: -20%;
+}
+
+#exampleSelect1{
+	width:90%;
+	color:black;
+	margin-left: 10%;
+	
+}
+
+#exampleSelect2{
+	width:90%;
+	color:grey;
+
+	
+}
+
+.tutTxt{
+	font-size: 120%;
+	color:grey;
+	margin-left: 10%;
+
+}
+
+.rightSide{
+	margin-right: 79%;
+	font-size: 15px;
+	text-align: right;
+	color:grey;
+	margin-top:4%;
+	
+}
+.leftSide{
+	font-size: 15px;
+	float:left;
+	margin-top: 1%;
+	margin-left: 20%;
+	color:grey;
+
+
+}
+input[type=radio] {
+    border: 0px;
+    width: 50%;
+    height: 1.3em;
+ 
+}
+
+#feedbackInputQuestion{
+	color: grey;
+	font-size: 150%;
+	margin-left: 3%;
+
+}
+#usr{
+	width:90%;
+	margin-left: 2%;
+}
+.radio-inline.radioButt{
+	color:grey;
+	margin:1%;
+	font-size: 17px;
+	}
+
+input[type=radio].theCircle{
+	width:81%;
+}
+
+#inputQuesText{
+	font-size: 16px;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	color:grey;
+	margin-left: 2%;
+}
+.multRads{
+	/*text-align: center;*/
+	margin-top: 1%;
+
+}
+.commentText{
+	font-size: 16px;
+	margin-left: 3%;
+	color:grey;
+}
+#comment{
+	margin-left: 3%;
+	margin-right: 15%;
+}
+
+#exampleSelectText1{
+	color:grey;
+	font-size:18px; 
+	margin-left: 10%; 
+}
+#exampleSelectText2{
+	color:grey;
+	font-size:18px; 
+
+}
+.questionTextRad{
+	margin-left: 5%;
+	font-size: 16px;
+}
+
+#resetButt{
+	background-color: grey;
+	font-size: 15px;
+	margin-left: 3%;
+	width:10%;
+	color: white;
+	margin-bottom: 30px;
+}
+#submitButt{
+	font-size: 15px;
+	background-color: red;
+	width:10%;
+	color: white;
+	margin-bottom: 30px;
+}
+
+
+/*================================iPad*/
+
+@media screen and (max-width: 768px){
+	.rightSide{
+		float:right;
+		margin-right: 15%;
+		margin-top: -5%;
+		text-align: right;
+	}
+	.leftSide{
+		float:left;
+		margin-top: 1%;
+	}
+	#exampleSelect1, #exampleSelect2{
+		width:80%;
+		margin-left: 10%;
+		margin-top: 2%;
+
+		
+	}
+	#exampleSelectText1, #exampleSelectText2{
+		color:grey;
+		font-size: 20px;
+		margin-left: 10%;
+
+	}
+
+	.multRads{
+		margin-left: 29%;
+		color:grey;
+	}
+	.radio-inline{
+	color:grey;
+	padding-left: 4%;
+	}
+
+	#usr{
+		width:88%;
+		margin-left: 5%;
+	}
+	.questionTextRad{
+		color:grey;
+		margin-left: 5%;
+		font-size: 22px;
+		margin-right: 5%;
+	}
+	#inputQuesText{
+		font-size: 22px;
+		margin-left: 5%;
+		color:grey;
+	}
+	.commentText{
+		margin-left: 2%;
+		font-size: 22px;
+		color:grey;
+	}
+	#comment{
+		width:90%;
+	}
+	#submitButt{
+		background-color: red;
+		font-size: 18px;
+
+	}
+	#resetButt{
+		font-size: 18px;
+	}
+	input[type=radio].theCircle{
+		width:67%;
+	}
+}
+
+
+/*======================iPhone*/
+
+
+@media screen and (max-width: 640px){
+	.tutTxt{
+		color:grey;
+	}
+	.studentFeedback{
+		height:50%;
+		margin-left: 25%;
+		font-size: 26px;
+
+	}
+	#exampleSelect1{
+		width:90%;
+		margin-left: 4%;
+	}
+	#exampleSelectText1{
+		margin-left: 4%;
+		font-size: 13px;
+	}
+	#exampleSelect2{
+		width:90%;
+		margin-left: 4%;
+	}
+
+	#exampleSelectText2{
+		margin-left: 4%;
+		font-size: 13px;
+	}
+		
+	.rightSide{
+		float:right;
+		margin-right: 11%;
+		margin-top: -8%;
+		font-size: 13px;
+
+	}
+
+	.leftSide{
+		float:left;
+		margin-top: 1%;
+		font-size: 13px;
+		margin-left: 10%;
+	}
+
+	#usr{
+		margin-left: 5%;
+		width: 90%;
+	}
+	
+	#comment{
+		margin-left: 2%;
+		width: 93%;	
+	}
+
+	.commentText{
+		margin-left: 3%;
+		font-size: 13px;
+	}
+	.questionTextRad{
+	color:grey;
+	margin-left: 10%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	}
+	#inputQuesText {
+	color:grey;
+	margin-left: 7%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 13px;
+	margin-right: 5%;
+	}
+
+	div.multRads{
+		text-align: none;
+		margin-left: 35%x;
+	}
+	input[type=radio].theCircle{
+		width:15px;
+		margin-left: -14px;
+	}
+
+	.radio-inline.radioButt{
+	color:grey;
+	margin-left: 4%;
+	font-size: 14px;
+	}
+	#submitButt{
+		background-color:red;
+		font-size: 13px;
+		width:18%;
+	}
+	#resetButt{
+		font-size: 13px;
+		width: 18%;
+	}
+
+
+	
+
+}
+
+
+
+
+
+
+

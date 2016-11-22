@@ -1,0 +1,68 @@
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.9s;
+  transition-duration: 0.9s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+
+
+
+.NavBarLink_linkText{
+	color: #ddd7d7;
+	font-size: 14px;
+	padding-left: 23px;
+	text-decoration: none;
+	display:block;
+
+}
+
+.NavBarLink_imageDiv{
+	display: inline-flex;
+	padding-left: 27%;
+	padding-top: 4%;
+	width: 100%;
+	padding-bottom: 4%;
+}
+
+.activePage {
+	background-color: #343333;
+}
+
+#hover{
+	display: inherit;
+	text-decoration: none;
+	
+}
+
+.NavBarLink_imageDiv:hover { 
+	background-color: #343333;
+	width: 100%;
+}
+
+
+@media screen and (max-width: 768px){
+	.NavBarLink_imageDiv:hover { 
+	background-color: #343333;
+	width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 640px){
+
+
+
+	
+}
+
+

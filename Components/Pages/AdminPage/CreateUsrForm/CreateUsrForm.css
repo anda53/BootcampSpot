@@ -1,0 +1,30 @@
+#adminButton{
+	width: 100%;
+	color: white;
+	background-color: red;
+}
+
+.formTitle{
+	color: #de0303;
+    margin-left: 2%;
+    font-size: 17px;
+    margin-top: inherit;
+}
+
+.createUser{
+    margin-top: 17px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-right: 52px;
+    padding-bottom: 92px;
+    padding-left: 52px;
+    background-color: #e4e3e3;
+}
+.colorBlock{
+	margin-bottom: 42px;
+}
+
+.createUserDiv{
+	background-color: #e4e3e3;
+    margin-top: 34px;
+}

@@ -1,0 +1,33 @@
+.sectionField{
+	margin-right: -11px;
+}
+#formBasicText{
+		margin-bottom: 16px;
+	}	
+
+.sectionDiv{
+	padding-top: 58px;
+    padding-right: 58px;
+    padding-bottom: 93px;
+    padding-left: 58px;
+    background-color: #e4e3e3;
+    margin-top: 29px;
+    margin-bottom: 28px;
+}
+
+#sectionButton{
+	width: 100%;
+    color: white;
+    background-color: red;
+}
+
+@media screen and (max-width: 1200px){
+	/*.sectionField{
+		margin-right: 0;
+	}
+*/
+	#formBasicText{
+		margin-bottom: 16px;
+	}	
+
+}

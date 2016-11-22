@@ -1,0 +1,16 @@
+#navBarDiv {
+   background-color: black;
+   height: 80vh;
+   padding-top: 20px;
+   border-bottom-style: solid;
+}
+.btn.btn-primary.dropdown-toggle{
+	background-color: black;
+	border-color: black;
+}
+.removeBullets{
+	list-style: none;
+}
+
+
+
